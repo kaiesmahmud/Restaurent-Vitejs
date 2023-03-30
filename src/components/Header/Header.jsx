@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Header = () => (
-    <div>Header</div>
+    <div className='min-h-[100vh]'>Header</div>
   );
 
 
