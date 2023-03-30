@@ -2,9 +2,12 @@ import React from 'react'
 //Image
 import images from '../../constants/images';
 
-const SubHeadings = () => {
+const SubHeadings = ({title}) => {
   return (
-    <div>SubHeadings</div>
+    <div>
+        <p>{title}</p>
+        <img src={images.spoon} alt="spoon img" />
+    </div>
   )
 }
 
