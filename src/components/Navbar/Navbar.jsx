@@ -8,7 +8,7 @@ const Navbar = () =>{
   return (
     <nav className='z-10 sticky top-0 flex flex-row lg:gap-5 justify-between items-center backdrop-blur-3xl text-white lg:px-5 lg:py-1 select-none'>
       <div className='w-[100px] flex justify-start items-center'>
-        <p className='text-4xl p-5  font-extralight select-none cursor-pointer'>Res<span className='text-cyan-300'>2</span>rentz</p>
+        <p className='text-4xl p-5  font-extralight select-none cursor-pointer'>Res<span className='text-teal-300'>2</span>rentz</p>
       </div>
       <div className=' hidden lg:flex flex-col lg:flex-row lg:gap-8 capitalize'>
         <div className='p-3 hover:text-gray-400 transition-colors'><a href="#home">Home </a></div>
@@ -22,7 +22,7 @@ const Navbar = () =>{
         <div className='p-3 hover:text-orange-200 hover:border-b hover:border-orange-500 transition-colors'><a href="/">book table </a></div>
       </div>
 {/* ----------Small Screen----------- */}
-      <div className='flex flex-col lg:hidden  '>
+      <div className='flex flex-col lg:hidden'>
         {
           !toggleMenu &&
           <div className='flex text-2xl justify-end p-5 '>
@@ -31,8 +31,8 @@ const Navbar = () =>{
         }
        {
         toggleMenu &&
-        <div className='w-[100vw] h-[100vh] absolute left-0 top-0 z-10 backdrop-blur-2xl  transition-all ease-in duration-200 font-extralight font-serif'>
-          <div className='flex text-4xl justify-end p-5 text-yellow-100 z-20'>
+        <div className='w-[100%] h-[100vh] absolute left-0 top-0 z-20 bg-black  transition-all ease-in duration-200 font-extralight font-serif'>
+          <div className='flex text-4xl justify-end p-5 text-yellow-100 '>
             <MdOutlineRestaurantMenu className=' cursor-pointer hover:text-yellow-200' onClick={()=> setToggleMenu(false)}/>
           </div>
           <div className='flex flex-col items-center capitalize' onClick={()=> setToggleMenu(false)}>
