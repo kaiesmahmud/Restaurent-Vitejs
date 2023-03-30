@@ -1,7 +1,7 @@
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, Navbar, SpecialMenu } from "./components"
 
 const App=()=>(
-    <div>
+    <div className="text-white">
       <Navbar/>
       <Header/>
       <AboutUs/>
