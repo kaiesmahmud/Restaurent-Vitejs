@@ -1,9 +1,8 @@
 import React from 'react'
 
-const Laurels = () => {
-  return (
+const Laurels = () => (
     <div>Laurels</div>
-  )
-}
+  );
+
 
 export default Laurels  

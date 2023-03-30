@@ -1,9 +1,8 @@
 import React from 'react'
 
-const FindUs = () => {
-  return (
+const FindUs = () => (
     <div>FindUs</div>
-  )
-}
+  );
+
 
 export default FindUs
