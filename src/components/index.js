@@ -9,6 +9,7 @@ import Laurels from './Laurels/Laurels';
 import SpecialMenu from './SpecialMenu/SpecialMenu';
 import Navbar from './Navbar/Navbar';
 import SubHeadings from './SubHeadings/SubHeadings';
+import MenuItem from './MenuItem/MenuItem';
 
 export {
   AboutUs,
@@ -21,5 +22,6 @@ export {
   Laurels,
   SpecialMenu,
   Navbar,
-  SubHeadings
+  SubHeadings,
+  MenuItem
 };
