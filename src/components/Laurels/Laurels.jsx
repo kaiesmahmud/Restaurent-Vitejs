@@ -1,11 +1,10 @@
 import React from 'react'
 // components
-import MenuItem from '../MenuItem/MenuItem';
+import AwardCard from './AwardCard';
 import SubHeadings from '../SubHeadings/SubHeadings';
 //constants
 import  data from './../../constants/data'
 import images from '../../constants/images';
-import AwardCard from './AwardCard';
 
 const Laurels = () => (
     <div className='flex flex-col lg:flex-row gap-10 p-5'>
