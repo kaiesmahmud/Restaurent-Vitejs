@@ -1,7 +1,6 @@
 import React from 'react'
 // components
 import MenuItem from '../MenuItem/MenuItem';
-import SubHeadings from '../SubHeadings/SubHeadings';
 //constants
 import  data from './../../constants/data'
 import images from '../../constants/images';
