@@ -7,7 +7,7 @@ import  data from './../../constants/data'
 import images from '../../constants/images';
 
 const Laurels = () => (
-    <div className='flex flex-col lg:flex-row gap-10 p-5'>
+    <div id='awards' className='flex flex-col lg:flex-row gap-10 p-5'>
       <div className='flex flex-col items-center lg:items-start'>
         <SubHeadings title="Awards & recognition" />
         <h1 className=' mb-7 tracking-wider capitalize text-3xl lg:text-5xl   font-serif font-thin text-orange-300 '>Our Laurels</h1>

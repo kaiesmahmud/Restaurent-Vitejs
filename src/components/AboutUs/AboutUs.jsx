@@ -3,7 +3,7 @@ import React from 'react'
 import images from '../../constants/images';
 
 const AboutUs = () => (
-    <section className='mt-10 mb-10 bg-fixed capitalize relative w-full' >
+    <section id='about' className='mt-10 pt-10  mb-10 bg-fixed capitalize relative w-full' >
       <div className=' absolute inset-0  z-[-10] flex justify-center items-center'>
         <img src={images.G} alt="g" className='w-[300px]  '/>
       </div>

@@ -6,7 +6,7 @@ import  data from './../../constants/data'
 import images from '../../constants/images';
 
 const SpecialMenu = () => (
-    <section className='my-10 py-10 capitalize bg-black flex flex-col justify-center items-center min-h-[100vh]'>
+    <section id='menu' className='my-10 py-10 capitalize bg-black flex flex-col justify-center items-center min-h-[100vh]'>
       <div className='text-center flex flex-col justify-center items-center'>
         <p className=' capitalize font-extralight text-sm font-serif tracking-widest'>menu that fits your palatte</p>
         <img src={images.spoon} alt="spoon img" />

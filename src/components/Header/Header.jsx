@@ -5,7 +5,7 @@ import images from '../../constants/images';
 
 
 const Header = () => (
-    <div className='min-h-[100vh] capitalize m-0 lg:mx-20 flex flex-col lg:flex-row items-center justify-center'>
+    <div id='home' className='min-h-[100vh] capitalize m-0 lg:mx-20 flex flex-col lg:flex-row items-center justify-center'>
       <div className='p-5 lg:w-[65%] '>
         <SubHeadings title='chase the new flavor '/>
         <h1 className='mt-10 mb-7 tracking-wider uppercase text-6xl lg:text-[100px]  font-serif font-thin text-orange-300'>The key to find dinings</h1>
