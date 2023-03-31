@@ -6,7 +6,7 @@ import SubHeadings from '../SubHeadings/SubHeadings';
 
 
 const Chef = () =>(
-    <div className='flex flex-col lg:flex-row'>
+    <div className='flex flex-col lg:flex-row mb-10'>
       <div className='flex justify-center items-center'>
         <img src={images.chef} alt="chef" className='w-[80%] lg:w-[90%] hover:scale-[95%] transition-all ease-in duration-200' />
       </div>
