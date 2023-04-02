@@ -12,7 +12,7 @@ const FindUs = () => (
       <button className='px-5 py-3 bg-orange-200 text-black mt-5'>Contact us</button>
     </div>
     <div className='w-[80%] md:w-[50%] lg:w-[50%] flex items-center justify-center'>
-      <img src={images.findus} alt="findus"  className='hover:scale-[95%] transition-all ease-in duration-200'/>
+      <img src={images?.findus} alt="findus"  className='hover:scale-[95%] transition-all ease-in duration-200'/>
     </div>
   </div>
   );
